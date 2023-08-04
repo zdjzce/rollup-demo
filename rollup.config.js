@@ -4,8 +4,9 @@
  * @type { import('rollup').RollupOptions }
  */
 
+// module: ESM用的 此文件无用
 import resolve from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-node-resolve'
+import commonjs from '@rollup/plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
 
 /* 多入口多出口多产物 */
